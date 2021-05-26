@@ -1,0 +1,204 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: galaxy_exit
+  examples: |
+    - how long does it take to to exit the galaxy?
+    - How long does it take to to exit the Galaxy?
+    - how much time does it take to exit the galaxy?
+    - How much time does it take to exit the Galaxy?
+    - how long would it take to exit the galaxy?
+    - How long would it take to exit the galaxy?
+    - To exit the galaxy, how long would it take?
+    - to exit the galaxy, How long would it Take?
+    - to exit the galaxy, how much time will it take?
+    - To exit the galaxy, How much time will it take?
+    - to exit the galaxy, how much time would it take?
+    - To exit the galaxy, How much time would it take?
+    - How long would it take to exit a galaxy?
+    - how long does it take to exit a Galaxy?
+
+- intent: biggest_blackhole
+  examples: | 
+    - What is the biggest blackhole in the Universe?
+    - what is the biggest blackhole in the universe?
+    - how big is the largest blackhole in the universe?
+    - How big is the Largest Blackhole in the Universe?
+    - How is the largest blackhole addressed as?
+    - how is the largest Blackhole addressed as?
+    - How long would it take to reach the Largest blackhole in the universe?
+    - how long would it take to reach the largest Blackhole in the Universe?
+    - how long will it take to reach the largest blackhole in the universe?
+    - How long will it take to reach the largest Blackhole in the Universe?
+
+- intent: common_galaxy
+  examples: | 
+    - What is the most common type of galaxy in the Universe?
+    - what is the most common type of galaxy in the universe? 
+    - What is the type of galaxies that are seen the most often?
+    - what is the type of galaxies that are seen the most often?
+    - what is the type of galaxies that ae seen throughout the Universe?
+    - What is the type of galaxies that are seen the throughout the universe?
+    - what type of galaxies are discovered the most throughout the universe?
+    - what type of galaxies are discovered the most throughout the universe?
+    - what is the most common type of galaxies that are dicovered in the universe?
+    - What is the most common type of galaxies that are discovered in the Universe?
+
+- intent: natural_satellites
+  examples: |
+     - How many secondary planets are in our solar system?
+     - how many secondary planets are in our solar system?
+     - In our solar system, how many satellites are present?
+     - in our solar system, how many satellites are present?
+     - in our solar system, how many secondary planets are present?
+     - In our solar system, how many secondary planets are present?
+     - how many moons are present in our solar system?
+     - How many moons are presnt in our solar system?
+     - In our solar system, how many moons are present?
+     - in our solar system, how many moons are present?
+     
+     
+- intent: faq/ask_name
+  examples: |
+     - What is your name?
+     - May I know your name?
+     - What do people call you?
+     - Do you have a name for yourself?
+
+
+- intent: faq/origin_espazimos
+  examples: |
+      - how did espazimos originate?
+      - How did Espazimos originate?
+      - HOW DID ESPAZIMOS ORIGINATE?
+      - The origin of Espazimos.
+      - the origin of espazimos.
+      - THE ORIGIN OF ESPAZIMOS.
+
+
+
+- intent: faq/what_espazimos
+  examples: |
+     - what is espazimos?
+     - What is Espazimos?
+     - WHAT IS ESPAZIMOS?
+     - What is Espazimos, the game?
+     - what is espazimos, the game?
+     - WHAT IS ESPAZIMOS, THE GAME?
+
+- intent: faq/rules_espazimos
+  examples: |
+     - What are the rules of the game?
+     - what are the rules of the game?
+     - WHAT ARE THE RULES OF THE GAME?
+     - What are the rules that should be followed when playing Espazimos?
+     - what are the rules that should be followed when playing espazimos?
+     - what are the rules that should be followed when playing espazimos?
+     - Rules of Espazimos.
+     - rules of espazimos.
+     - RULE OF ESPAZIMOS.
+
+- intent: faq/play_espazimos
+  examples: |
+      - how is espazimos played?
+      - How is Espazimos played?
+      - HOW IS ESPAZIMOS PLAYED?
+      - how does espazimos work?
+      - How does Espazimos work?
+      - HOW DOES ESPAZIMOS WORK?
+
+
+     
+
+     
+

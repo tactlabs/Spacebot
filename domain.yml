@@ -1,0 +1,87 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - galaxy_exit
+  - biggest_blackhole
+  - common_galaxy
+  - natural_satellites
+  - faq
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"  
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_galaxy_exit:
+  - text: "It would take 25,000 light years to exit the galaxy."
+
+  utter_biggest_blackhole:
+  - text: "Messier 87 is the largest blackhole known to mankind. The radius of the blackhole is 60,000 light years. It would take you 53.49 million light years to reach Messier 87 from Earth."
+
+  utter_common_galaxy:
+  - text: "The most common type of galaxy that are discovered throughout the universe are Elliptical galaxies."
+
+  utter_natural_satellites:
+  - text: "There are 181 satellites in the solar system."
+
+  utter_faq/ask_name:
+  - text: "I'm Spacebot, your assistant in knowing space."
+
+  utter_faq/origin_espazimos:
+  - text: "Espazimos was procured from 3 words in 3 different languages; 
+           those were French, Italian, and Lithuanian, “Spazimo” meaning space in Italian, “Espace” meaning space in French, and “vietos” meaning space in Lithuanian. 
+           Together, they unite to form the word Espazimos!"
+
+  utter_faq/what_espazimos:
+  - text: "Espazimos is a frolic quiz that focuses on space-related topics, mixed with gamifications to kindle interest in students."
+
+  utter_faq/rules_espazimos:
+  - text: "Once the question is displayed, the 4 cards with the options are displayed.
+          
+          Out of the 4, 1 of them is the answer.
+           
+           Choose the option which you think is right. The right answer will be revealed in due time.
+           
+           You should answer within 60 seconds.
+           
+           Judges' call is the final.
+           
+           No negative points for wrong answers."
+
+
+  utter_faq/play_espazimos:
+  - text: "The game begins with the admins posting questions for the audience to answer.
+           The game is won by the Team with the highest score.
+           There are 2 rounds to the game; 
+           Round — 1, where each question carries 5 points, 
+           Round — 2, a picturesque round, each question carrying 10 points."
+
+  
+
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
